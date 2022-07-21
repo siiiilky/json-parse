@@ -18,7 +18,7 @@ print(json_text)
 # json_loads into a dictionary
 y = json.loads(json_text)
 
-# Display the type of the dictionary
+# Display the type of y
 print("y is a", type(y))
 
 # Display the organisation from the xml file
