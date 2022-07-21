@@ -14,3 +14,12 @@ print("json_text is a", type(json_text))
 
 # Display the contents of the json_text variable
 print(json_text)
+
+# json_loads access specific keys by name
+y = json.loads(json_text)
+print(y["organization"])
+
+# Loop through switches and print hostname and model
+for switch in y["switches"]:
+ print(switch["hostname"])
+ print(switch["model"])
