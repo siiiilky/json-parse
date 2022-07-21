@@ -21,5 +21,4 @@ print(y["organization"])
 
 # Loop through switches and print hostname and model
 for switch in y["switches"]:
- print(switch["hostname"])
- print(switch["model"])
+ print(switch["hostname"] + "\t\t-\t\t" + switch["model"] + "\t\t-\t\t" + switch["ipaddress"])
