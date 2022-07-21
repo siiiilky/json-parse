@@ -15,8 +15,13 @@ print("json_text is a", type(json_text))
 # Display the contents of the json_text variable
 print(json_text)
 
-# json_loads access specific keys by name
+# json_loads into a dictionary
 y = json.loads(json_text)
+
+# Display the type of the dictionary
+print("y is a", type(y))
+
+# Display the organisation from the xml file
 print(y["organization"])
 
 # Loop through switches and print hostname and model
