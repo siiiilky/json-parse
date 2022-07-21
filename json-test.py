@@ -24,6 +24,6 @@ print("y is a", type(y))
 # Display the organisation from the xml file
 print(y["organization"])
 
-# Loop through switches and print hostname and model
+# Loop through switches and print hostname, model, and ip address
 for switch in y["switches"]:
  print(switch["hostname"] + "\t\t-\t\t" + switch["model"] + "\t\t-\t\t" + switch["ipaddress"])

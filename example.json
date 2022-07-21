@@ -13,7 +13,7 @@
     },
       {
       "hostname": "org-sw-02",
-      "ipaddress": "192.168.1.2",
+      "ipaddress": "192.168.1.3",
       "model": "9300-48"
     }
   ]
