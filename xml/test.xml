@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <organization>Org Ltd</organization>
+  <switches>
+    <hostname>org-core-01</hostname>
+    <ipaddress>192.168.1.1</ipaddress>
+    <model>9500-24</model>
+  </switches>
+  <switches>
+    <hostname>org-sw-01</hostname>
+    <ipaddress>192.168.1.2</ipaddress>
+    <model>9300-48</model>
+  </switches>
+  <switches>
+    <hostname>org-sw-02</hostname>
+    <ipaddress>192.168.1.3</ipaddress>
+    <model>9300-48</model>
+  </switches>
+</root>
